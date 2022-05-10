@@ -37,10 +37,6 @@ sudo pacman -Sy git make inkscape xcursorgen
         *) echo "invalid option $REPLY";;
     esac
 pause 'Press [Enter] key to continue...'
-#Username: jma1795
-#Password: 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
-
-git clone https://github.com/jma1795/Cinnamon-Configuration-and-themes.git
 exit
 done
 
