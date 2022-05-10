@@ -1,6 +1,10 @@
 #Make Theme Directories if they don't exist
 mkdir ~/.icons
 mkdir ~/.themes
+
+#Install Prerequisits
+sudo dnf install git make inkscape xcursorgen
+
 #Get Themes
 echo '*****************Getting Themes*****************'
 cd ~/Downloads
@@ -21,7 +25,7 @@ cd ~/Downloads
 echo '*****************Auto-setting Themes*****************'
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Elemento Dark'
-gsettings set org.gnome.desktop.interface cursor-theme 'WinSur-dark-cursors'
+gsettings set org.gnome.desktop.interface cursor-theme 'volantes-cursors'
 sudo flatpak override --filesystem=$HOME/.themes
 gsettings set org.cinnamon.theme name 'Elemento Dark'
 gsettings set org.cinnamon.desktop.interface gtk-theme "Elemento Dark"
