@@ -2,9 +2,6 @@
 mkdir ~/.icons
 mkdir ~/.themes
 
-#Install Prerequisits
-sudo dnf install git make inkscape xcursorgen
-
 #Get Themes
 echo '*****************Getting Themes*****************'
 cd ~/Downloads
