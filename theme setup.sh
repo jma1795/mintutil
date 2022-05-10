@@ -6,14 +6,16 @@ echo '*****************Getting Themes*****************'
 cd ~/Downloads
 git clone https://github.com/cbrnix/Newaita-reborn.git
 git clone https://github.com/darkomarko42/Elemento.git
-git clone https://github.com/yeyushengfan258/WinSur-dark-cursors.git
 
 
 mv ~/Downloads/Newaita-reborn/* ~/.icons/ 
 mv ~/Downloads/Elemento/* ~/.themes/
 
-cd WinSur-dark-cursors/
-./install.sh
+git clone https://github.com/varlesh/volantes-cursors.git
+cd volantes-cursors
+make build
+sudo make install
+cd ~/Downloads
 
 #Setting Themes
 echo '*****************Auto-setting Themes*****************'
@@ -30,5 +32,5 @@ gsettings set org.cinnamon.desktop.interface icon-theme 'Newaita-reborn-dark'
 echo '*****************Cleaning up*****************'
 rm -rf ~/Downloads/Newaita-reborn
 rm -rf ~/Downloads/Elemento
-rm -rf ~/Downloads/WinSur-dark-cursors
+rm -rf ~/Downloads/volantes-cursors
 echo '*****************DONE!*****************'
