@@ -11,21 +11,21 @@ select fav in "${foods[@]}"; do
         "Debian")
             echo "****Installing $fav git Package****"
 	    # run package installer
-sudo apt install -y git
+sudo apt install -y git make inkscape xcursorgen
 #*****************************************************************
             echo "****Packages Installed****"
             ;;
         "Fedora")
             echo "****Installing $fav git Package****"
 	    # run package installer
-sudo dnf install -y git
+sudo dnf install -y git make inkscape xcursorgen
 #*****************************************************************
             echo "****Packages Installed****"
             ;;
         "Arch")
             echo "****Installing $fav git Package****"
 	    # run package installer
-sudo pacman -Sy git
+sudo pacman -Sy git make inkscape xcursorgen
 #*****************************************************************
             echo "****Packages Installed****"
 	    break
