@@ -19,3 +19,35 @@ Other:
 
 powertop.service - for powertop packages 
 dnf.conf - Fedora only --> sets up DNF to my prefered default
+
+Installed Packages:
+- Applets
+  - Weather
+  - CinnVIIStarkMenu
+- Themes
+  - Newaita-reborn Icons
+  - Elemento GTK theme (can also use Marwaita)
+  - Volantes-cursors
+- Software
+  - git 
+  - make 
+  - inkscape 
+  - xcursorgen
+  - rpm-fusion (fedora only)
+  - cheese 
+  - gnome-software 
+  - grub-customizer 
+  - neofetch 
+  - powertop (laptop only)
+  - tlp (laptop only)
+  - tlp-rdw (laptop only)
+  - xsensors 
+  - powerline (fonts-powerline if required)
+  - Flatpaks
+     - Google Chrome
+     - Evolution
+     - Caprine
+     - Discord
+     - Spotify
+     - Joplin
+     - Libre-office (if not included)
