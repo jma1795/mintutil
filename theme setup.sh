@@ -6,7 +6,7 @@ mkdir /usr/share/icons
 echo '*****************Downloading Themes*****************'
 cd ~/Downloads
 git clone https://github.com/cbrnix/Newaita-reborn.git
-https://github.com/darkomarko42/Elemento.git
+git clone https://github.com/darkomarko42/Elemento.git
 
 
 mkdir Bibata
