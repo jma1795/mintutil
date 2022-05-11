@@ -36,4 +36,5 @@ echo '*****************Cleaning up*****************'
 rm -rf ~/Downloads/Newaita-reborn
 rm -rf ~/Downloads/Elemento
 rm -rf ~/Downloads/Bibata
+rm -rf ~/Downloads/Bibata.tar.gz
 echo '*****************DONE!*****************'
