@@ -17,16 +17,16 @@ cd ~/Downloads
 git clone https://github.com/AdisonCavani/distro-grub-themes.git
 
 echo '*****************Installing Themes*****************'
-mv ~/Downloads/Newaita-reborn/* ~/.icons/ 
-mv ~/Downloads/Bibata/* ~/.icons/ 
+mv ~/Downloads/Newaita-reborn/* ~/.local/share/icons/ 
+mv ~/Downloads/Bibata/* ~/.local/share/icons
 mv ~/Downloads/distro-grub-themes ~/
-mv ~/Downloads/Elemento/* ~/.themes/
+mv ~/Downloads/Elemento/* ~/.local/share/themes/
 
 #Setting Themes
 echo '*****************Attempting to Auto-setting Themes*****************'
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Elemento-dark'
-gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Origonal-Classic'
+gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
 sudo flatpak override --filesystem=$HOME/.themes
 gsettings set org.cinnamon.theme name 'Elemento-dark'
 gsettings set org.cinnamon.desktop.interface gtk-theme "Elemento-dark"
