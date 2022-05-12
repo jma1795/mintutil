@@ -35,8 +35,5 @@ gsettings set org.cinnamon.desktop.interface icon-theme 'Newaita-reborn-dark'
 
 #Cleanup
 echo '*****************Cleaning up*****************'
-rm -rf ~/Downloads/Newaita-reborn
-rm -rf ~/Downloads/Elemento
-rm -rf ~/Downloads/Bibata
-rm -rf ~/Downloads/Bibata.tar.gz
+rm -rf ~/Downloads/*
 echo '*****************DONE!*****************'
