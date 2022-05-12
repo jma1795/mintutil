@@ -28,6 +28,7 @@ Installed Packages:
   - Newaita-reborn Icons
   - Elemento GTK theme (can also use Marwaita)
   - Volantes-cursors
+  - AdisonCavani "distro-grub-themes"
 - Software
   - git 
   - make 
