@@ -5,8 +5,8 @@ mkdir ~/.themes
 #Get Themes
 echo '*****************Downloading Themes*****************'
 cd ~/Downloads
-echo '*****************Getting Newaita-Reborn Icons*****************'
-git clone https://github.com/cbrnix/Newaita-reborn.git
+echo '*****************Getting Newaita Icons*****************'
+git clone https://github.com/cbrnix/Newaita.git
 echo '*****************Getting Elemento GTK-Theme (all Colors)*****************'
 git clone https://github.com/darkomarko42/Elemento.git
 git clone https://github.com/darkomarko42/Elemento-slate.git
@@ -28,7 +28,7 @@ cd ~/Downloads
 #git clone https://github.com/AdisonCavani/distro-grub-themes.git
 
 echo '*****************Installing Icons*****************'
-mv ~/Downloads/Newaita-reborn/* ~/.icons/ 
+mv ~/Downloads/Newaita/* ~/.icons/ 
 sudo mv ~/Downloads/Bibata/* /usr/share/icons
 echo '*****************Installing Themes*****************'
 #mv ~/Downloads/distro-grub-themes ~/
@@ -52,7 +52,7 @@ sudo flatpak override --filesystem=$HOME/.themes
 gsettings set org.cinnamon.theme name 'Elemento-dark'
 gsettings set org.cinnamon.desktop.interface gtk-theme "Elemento-dark"
 gsettings set org.cinnamon.desktop.wm.preferences theme "Elemento-dark"
-gsettings set org.cinnamon.desktop.interface icon-theme 'Newaita-reborn-dark'
+gsettings set org.cinnamon.desktop.interface icon-theme 'Newaita-dark'
 
 #Cleanup
 echo '*****************Cleaning up*****************'
