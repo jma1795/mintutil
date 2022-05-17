@@ -23,12 +23,12 @@ mkdir Bibata
 cd ~/Downloads/Bibata
 curl -L https://github.com/ful1e5/Bibata_Cursor/releases/download/v1.1.2/Bibata.tar.gz --output ~/Downloads/Bibata.tar.gz
 tar -xf Bibata.tar.gz
-
 cd ~/Downloads
 
 echo '*****************Installing Icons*****************'
 mv ~/Downloads/Flatery/* ~/.icons/ 
 sudo mv ~/Downloads/Bibata/* /usr/share/icons/
+
 echo '*****************Installing Themes*****************'
 mv ~/Downloads/Marwaita/* ~/.themes/
 mv ~/Downloads/Marwaita-manjaro/* ~/.themes/
@@ -41,18 +41,18 @@ mv ~/Downloads/Marwaita-peppermint/* ~/.themes/
 mv ~/Downloads/Marwaita-Mint/* ~/.themes/
 mv ~/Downloads/Marwaita-OSX/* ~/.themes/
 
-#Setting Themes
-echo '*****************Attempting to Auto-set Theme*****************'
-
-gsettings set org.gnome.desktop.interface gtk-theme 'Marwaita-dark'
-gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
-sudo flatpak override --filesystem=$HOME/.themes
-gsettings set org.cinnamon.theme name 'Elemento-dark'
-gsettings set org.cinnamon.desktop.interface gtk-theme "Marwaita-dark"
-gsettings set org.cinnamon.desktop.wm.preferences theme "Marwaita-dark"
-gsettings set org.cinnamon.desktop.interface icon-theme 'Marwaita-dark'
-
 #Cleanup
 echo '*****************Cleaning up*****************'
-rm -rf ~/Downloads/*
+rm -rf ~/Downloads/Flatery/
+rm -rf ~/Downloads/Bibata/
+rm -rf ~/Downloads/Marwaita/
+rm -rf ~/Downloads/Marwaita-manjaro/
+rm -rf ~/Downloads/Marwaita-EndeavourOs/
+rm -rf ~/Downloads/Marwaita-ubuntu/
+rm -rf ~/Downloads/Marwaita-Zorin/
+rm -rf ~/Downloads/Marwaita-Pop_os/
+rm -rf ~/Downloads/Marwaita-Debian/
+rm -rf ~/Downloads/Marwaita-peppermint/
+rm -rf ~/Downloads/Marwaita-Mint/
+rm -rf ~/Downloads/Marwaita-OSX/
 echo '*****************DONE!*****************'
