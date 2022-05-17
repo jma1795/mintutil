@@ -6,7 +6,7 @@ mkdir ~/.themes
 echo '*****************Downloading Themes*****************'
 cd ~/Downloads
 echo '*****************Getting Icons*****************'
-git clone https://github.com/darkomarko42/Marwaita-Icons
+git clone https://github.com/cbrnix/Flatery.git
 echo '*****************Getting Themes*****************'
 git clone https://github.com/darkomarko42/Marwaita.git
 git clone https://github.com/darkomarko42/Marwaita-manjaro
@@ -27,7 +27,7 @@ tar -xf Bibata.tar.gz
 cd ~/Downloads
 
 echo '*****************Installing Icons*****************'
-mv ~/Downloads/Newaita/* ~/.icons/ 
+mv ~/Downloads/Flatery/* ~/.icons/ 
 sudo mv ~/Downloads/Bibata/* /usr/share/icons/
 echo '*****************Installing Themes*****************'
 mv ~/Downloads/Marwaita/* ~/.themes/
