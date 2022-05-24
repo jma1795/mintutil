@@ -21,7 +21,7 @@ git clone https://github.com/darkomarko42/Marwaita-OSX
 echo '*****************Getting Bibata Cursors*****************'
 mkdir Bibata
 cd ~/Downloads/Bibata
-curl -L https://github.com/ful1e5/Bibata_Cursor/releases/download/v1.1.2/Bibata.tar.gz --output ~/Downloads/Bibata.tar.gz
+curl -L https://github.com/ful1e5/Bibata_Cursor/releases/download/v1.1.2/Bibata.tar.gz --output ~/Downloads/Bibata/Bibata.tar.gz
 tar -xf Bibata.tar.gz
 cd ~/Downloads
 
