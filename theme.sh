@@ -6,7 +6,7 @@ mkdir ~/.themes
 echo '*****************Downloading Themes*****************'
 cd ~/Downloads
 echo '*****************Getting Icons*****************'
-git clone https://github.com/cbrnix/Flatery.git
+git clone https://github.com/gusbemacbe/suru-plus.git
 echo '*****************Getting Themes*****************'
 git clone https://github.com/darkomarko42/Marwaita.git
 git clone https://github.com/darkomarko42/Marwaita-manjaro
@@ -26,7 +26,7 @@ tar -xf Bibata.tar.gz
 cd ~/Downloads
 
 echo '*****************Installing Icons*****************'
-mv ~/Downloads/Flatery/* ~/.icons/ 
+mv ~/Downloads/suru-plus/* ~/.icons/ 
 sudo mv ~/Downloads/Bibata/* /usr/share/icons/
 
 echo '*****************Installing Themes*****************'
@@ -43,7 +43,7 @@ mv ~/Downloads/Marwaita-OSX/* ~/.themes/
 
 #Cleanup
 echo '*****************Cleaning up*****************'
-rm -rf ~/Downloads/Flatery/
+rm -rf ~/Downloads/suru-plus/
 rm -rf ~/Downloads/Bibata/
 rm -rf ~/Downloads/Marwaita/
 rm -rf ~/Downloads/Marwaita-manjaro/
