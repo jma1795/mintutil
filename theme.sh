@@ -34,5 +34,4 @@ rm -rf ~/Downloads/Bibata/
 rm -rf ~/Downloads/Marwaita/
 rm -rf ~/Downloads/Marwaita-EndeavourOs/
 rm -rf ~/Downloads/Marwaita-Pop_os/
-rm -rf ~/Downloads/Marwaita-Mint/
 echo '*****************DONE!*****************'
