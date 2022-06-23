@@ -6,16 +6,12 @@ mkdir ~/.themes
 echo '*****************Downloading Themes*****************'
 cd ~/Downloads
 echo '*****************Getting Icons*****************'
-git clone https://github.com/pop-os/icon-theme pop-icon-theme
-cd pop-icon-theme
-meson build
-sudo ninja -C "build" install
+sudo nala install pop-icon-theme
 cd ..
 echo '*****************Getting Themes*****************'
 git clone https://github.com/darkomarko42/Marwaita.git
 git clone https://github.com/darkomarko42/Marwaita-EndeavourOs
 git clone https://github.com/darkomarko42/Marwaita-Pop_os
-git clone https://github.com/darkomarko42/Marwaita-Mint
 echo '*****************Getting Bibata Cursors*****************'
 mkdir Bibata
 cd ~/Downloads/Bibata
@@ -34,7 +30,6 @@ mv ~/Downloads/Marwaita-Mint/* ~/.themes/
 
 #Cleanup
 echo '*****************Cleaning up*****************'
-rm -rf ~/Downloads/pop-icon-theme/
 rm -rf ~/Downloads/Bibata/
 rm -rf ~/Downloads/Marwaita/
 rm -rf ~/Downloads/Marwaita-EndeavourOs/
