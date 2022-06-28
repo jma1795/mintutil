@@ -3,7 +3,7 @@ sudo apt -y update && apt -y upgrade
 
 
 #Native packages
-nala install cheese neofetch powertop tlp tlp-rdw cpufrequtils laptop-mode-tools tp-smapi-dkms acpi-call-dkms smartmontools
+nala install cheese neofetch powertop tlp tlp-rdw
 
 
 #Flatpaks
@@ -16,10 +16,8 @@ flatpak install -y flathub net.cozic.joplin_desktop
 #power management
 sudo tlp
 sudo powertop
+sudo powertop --calibrate
 sudo powertop --auto-tune
-sudo mv powertop.service /etc/systemd/system
-systemctl daemon-reload
-systemctl enable powertop.service
 
 #terminal
 echo '#POWERLINE
