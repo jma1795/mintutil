@@ -1,10 +1,18 @@
 #!/bin/bash
 # init
+echo "****************************************************"
+echo "**** Welcome to Joe's 'Mint Optimization Script ****"
+echo "****************************************************"
+neofetch
+echo "***************************************"
+echo "** What Script would you like to run?**"
+echo "***************************************"
+
 function pause(){
    read -p "$*"
 }
 ################################################################ 
-PS3='What Package do you want to install:'
+PS3='Option:'
 foods=("Pre-Setup" "Appearance" "Packages" "Optimizations" "Quit")
 select fav in "${foods[@]}"; do
     case $fav in
