@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 # init
 function pause(){
    read -p "$*"
@@ -53,7 +53,6 @@ bash setup.sh
 	    echo "*****Script Terminated****"
         echo "*****System Reboot Suggested****"
 	    exit
-done
 	    ;;
         *) echo "invalid option $REPLY";;
     esac
