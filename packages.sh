@@ -3,12 +3,11 @@ sudo apt -y update && apt -y upgrade
 
 
 #Native packages
-nala install cheese neofetch powertop tlp tlp-rdw
+nala install cheese neofetch powertop tlp tlp-rdw evolution
 
 
 #Flatpaks
 flatpak install -y flathub com.google.Chrome
-flatpak install -y flathub org.gnome.Evolution
 flatpak install -y flathub com.sindresorhus.Caprine
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub com.spotify.Client
