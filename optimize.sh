@@ -46,6 +46,7 @@ echo '; default-sample-format = float32le
 ; realtime-priority = 9
 ; rlimit-rtprio = 9' >> /etc/pulse/daemon.conf
 
+pulseaudio -k
             echo "****Optimization Complete!****"
 	    # run package installer
 bash setup.sh
