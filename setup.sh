@@ -3,9 +3,8 @@
 echo "****************************************************"
 echo "**** Welcome to Joe's 'Mint Optimization Script ****"
 echo "****************************************************"
-neofetch
-bash sysinfo2.sh
 bash date.sh
+bash sysinfo2.sh
 echo "***************************************"
 echo "** What Script would you like to run?**"
 echo "***************************************"
