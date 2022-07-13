@@ -4,6 +4,8 @@ echo "****************************************************"
 echo "**** Welcome to Joe's 'Mint Optimization Script ****"
 echo "****************************************************"
 neofetch
+bash sysinfo2.sh
+bash date.sh
 echo "***************************************"
 echo "** What Script would you like to run?**"
 echo "***************************************"
@@ -13,10 +15,10 @@ function pause(){
 }
 ################################################################ 
 PS3='Option:'
-foods=("Pre-Setup" "Appearance" "Packages" "Optimizations" "Quit")
+foods=("Initial Setup" "Power Management (Laptops Only)" "Packages" "Optimizations" "Quit")
 select fav in "${foods[@]}"; do
     case $fav in
-        "Pre-Setup")
+        "Initial Setup")
             echo "****Installing $fav git Package****"
 	    # run package installer
 bash Pre-setup.sh
@@ -24,18 +26,16 @@ bash Pre-setup.sh
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
-
             ;;
-        "Appearance")
+        "Power Management (Laptops Only")
             echo "****Setting up $fav****"
 	    # run package installer
-bash theme.sh
-            echo "****Theme Installed****"
+sudo nala install tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic
+            echo "****Power Management Installed****"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
-            
-            ;;
+           ;;
         "Packages")
             echo "****Installing $fav and Apps****"
 	    # run package installer
@@ -52,8 +52,6 @@ bash optimize.sh
 echo "****System Optimized****"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
-#*****************************************************************
-
 #*****************************************************************
 	    break
             ;;
