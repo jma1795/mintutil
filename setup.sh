@@ -21,7 +21,9 @@ select fav in "${foods[@]}"; do
             echo "****Installing $fav git Package****"
 	    # run package installer
 bash Pre-setup.sh
-            echo "****Packages Installed****"
+        echo "************************************"
+        echo "** Pre-setup Scrip ran Sucessfully**"
+        echo "************************************"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
@@ -30,7 +32,9 @@ bash setup.sh
             echo "****Setting up $fav****"
 	    # run package installer
 sudo nala install -y tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic
-            echo "****Power Management Installed****"
+        echo "*******************************************"
+        echo "** Power Management Scrip ran Sucessfully**"
+        echo "*******************************************"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
@@ -39,7 +43,9 @@ bash setup.sh
             echo "****Installing $fav and Apps****"
 	    # run package installer
 bash packages.sh
-echo "****Packages Installed****"
+        echo "************************************"
+        echo "** Packages Script ran Sucessfully**"
+        echo "************************************"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
@@ -48,7 +54,9 @@ bash setup.sh
             echo "****Installing $fav****"
 	    # run package installer
 bash optimize.sh
-echo "****System Optimized****"
+        echo "************************************"
+        echo "** Optimize Script ran Sucessfully**"
+        echo "************************************"	
 pause 'Press [Enter] key to continue...'
 bash setup.sh
 #*****************************************************************
