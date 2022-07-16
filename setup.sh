@@ -58,6 +58,7 @@ bash setup.sh
 	    echo "*****Script Terminated****"
         echo "*****System Reboot Suggested****"
 	    exit
+	    exit
 	    ;;
         *) echo "invalid option $REPLY";;
     esac
