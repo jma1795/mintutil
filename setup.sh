@@ -55,8 +55,9 @@ bash setup.sh
 	    break
             ;;
 	"Quit")
-	    echo "*****Script Terminated****"
-        echo "*****System Reboot Suggested****"
+        echo "***********************************************"
+        echo "** Script Terminated. System Reboot Suggested**"
+        echo "***********************************************"	    
 	    exit
 	    exit
 	    ;;
