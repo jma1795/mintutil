@@ -29,7 +29,7 @@ bash setup.sh
         "Power Management (Laptops Only)")
             echo "****Setting up $fav****"
 	    # run package installer
-sudo nala install tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic
+sudo nala install -y tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic
             echo "****Power Management Installed****"
 pause 'Press [Enter] key to continue...'
 bash setup.sh
