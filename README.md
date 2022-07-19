@@ -20,9 +20,7 @@ Installed Packages:
   - evolution
   - cheese 
   - neofetch 
-  - powertop
   - tlp
-  - tlp-rdw
   - xsensors 
   - powerline (fonts-powerline)
   - Flatpaks
@@ -32,7 +30,7 @@ Installed Packages:
      - Spotify
      - Joplin
 - Themes
-  - Aleta Icons
-  - Marwaita GTK theme: https://github.com/darkomarko42/Marwaita
-  - CBlack GTK theme
+  - Ozon Icons
+  - Dracula GTK theme
+  - Bibata-Modern-Classic cursor theme
 
