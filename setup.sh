@@ -29,7 +29,7 @@ bash packages.sh
 bash optimize.sh
         echo "#########################"       
         echo "## Automating Complete ##"
-	    echo "#########################" 
+	echo "#########################" 
 pause 'Press [Enter] key to Restart...'
 sudo reboot
 exit
@@ -50,6 +50,9 @@ bash setup.sh
             echo "****Setting up $fav****"
 	    # run package installer
 sudo nala install -y tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic powertop
+
+mv ~/Downloads/joecinnamon-main/power/power /etc/pm/power.d/power
+
         echo "##########################################"
         echo "# Power Management Scrip ran Sucessfully #"
         echo "##########################################"
