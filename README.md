@@ -31,6 +31,6 @@ Installed Packages:
      - Joplin
 - Themes
   - Ozon Icons
-  - Dracula GTK theme
+  - CBlack Cinnamon-spices theme
   - Bibata-Modern-Classic cursor theme
 
