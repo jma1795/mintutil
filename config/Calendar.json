@@ -30,7 +30,7 @@
         "description": "Date format",
         "dependency": "use-custom-format",
         "tooltip": "Set your custom format here.",
-        "value": " %m/%d  \n%l:%M%P"
+        "value": "%m/%d/%y  \n  %l:%M%P%"
     },
     "format-button": {
         "type": "button",
