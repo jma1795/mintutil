@@ -3,8 +3,9 @@ sudo apt -y update && apt -y upgrade
 
 
 #Native packages
-nala install cheese neofetch
-
+sudo nala install -y cheese neofetch python
+sudo pip install system-monitoring-center
+system-monitoring-center
 
 #Flatpaks
 flatpak install -y flathub com.google.Chrome
