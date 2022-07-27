@@ -25,3 +25,7 @@ EOF
 
 systemctl daemon-reload
 systemctl enable powertop.service
+
+sudo add-apt-repository -y ppa:linuxuprising/apps
+sudo nala update
+sudo nala install tlpui
