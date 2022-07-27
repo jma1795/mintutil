@@ -19,6 +19,12 @@ sudo flatpak override --filesystem=$HOME/.themes
 
 #terminal
 #Adding Parot OS's bash prompt in here
+cd config
+mv .bashrc ~/.bashrc
+mv .bash_prompt ~/.bash_prompt
+
+<<com
+#Automated creation - Not realy for testing
 sudo touch ~/.bash_prompt
 
 cat << EOF >> ~/.bash_prompt
@@ -69,4 +75,4 @@ if [ -f ~/.bash_prompt ]; then
 fi
 
 EOF
-
+com
