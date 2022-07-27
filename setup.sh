@@ -24,7 +24,7 @@ pause 'Are you sure? Press [Enter] key to continue, press CTRL + C to end.'
 	    echo "#########################" 
         # run package installer
 bash Pre-setup.sh
-sudo nala install -y tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic
+bash power.sh
 bash packages.sh
 bash optimize.sh
         echo "#########################"       
@@ -49,10 +49,7 @@ bash setup.sh
         "Power Management (Laptops Only)")
             echo "****Setting up $fav****"
 	    # run package installer
-sudo nala install -y tlp tp-smapi-dkms acpi-call-dkms smartmontools linux-tools-generic powertop
-
-mv ~/Downloads/joecinnamon-main/power/power /etc/pm/power.d/power
-
+bash power.sh
         echo "##########################################"
         echo "# Power Management Scrip ran Sucessfully #"
         echo "##########################################"
