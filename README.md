@@ -1,4 +1,4 @@
-# Cinnamon-Configuration-and-themes
+# joemint
 My own custom setup for Cinnamon Desktop Environment on Linux Mint
 *****************Overview*****************
 Folders:
