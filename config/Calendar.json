@@ -26,11 +26,11 @@
     },
     "custom-format": {
         "type": "entry",
-        "default": "%H:%M:%S \n%e.%b.%a",
+        "default": "%A, %B %e, %H:%M",
         "description": "Date format",
         "dependency": "use-custom-format",
         "tooltip": "Set your custom format here.",
-        "value": "%m/%d/%y  \n  %l:%M%P%"
+        "value": "  %b %d  | %m/%d/%y  \n  %A | %l:%M%P%"
     },
     "format-button": {
         "type": "button",
