@@ -22,15 +22,15 @@ Installed Packages:
   - neofetch 
   - tlp
   - xsensors 
-  - powerline (fonts-powerline)
   - Flatpaks
      - Google Chrome
+     - Evolution
      - Caprine
      - Discord
      - Spotify
      - Joplin
 - Themes
-  - Vibrancy Icons
+  - Masalla Icons
   - Adementary theme
   - Bibata Cursors
 
