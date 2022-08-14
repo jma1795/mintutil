@@ -34,3 +34,8 @@ cd ..
 cd ..
 
 flatpak install flathub org.gtk.Gtk3theme.Adementary
+
+#Install Cursors
+wget https://github.com/ful1e5/Bibata_Cursor/releases/download/v1.1.2/Bibata-Modern-Classic.tar.gz
+tar -xf Bibata-Modern-Classic.tar.gz
+cp Bibata-Modern-Classic /usr/share/icons/
