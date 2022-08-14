@@ -30,7 +30,7 @@ Installed Packages:
      - Spotify
      - Joplin
 - Themes
-  - Ozon Icons
-  - CBlack Cinnamon-spices theme
-  - Bibata-Modern-Classic cursor theme
+  - Vibrancy Icons
+  - Adementary theme
+  - Bibata Cursors
 
