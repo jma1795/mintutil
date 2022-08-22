@@ -4,8 +4,10 @@ sudo apt -y update && apt -y upgrade
 
 #Native packages
 sudo nala install -y cheese neofetch python
-sudo pip install system-monitoring-center
-system-monitoring-center
+#installing SysMonTask
+git clone https://github.com/KrispyCamel4u/SysMonTask.git
+cd SysMonTask
+sudo python3 setup.py install
 
 #Flatpaks
 flatpak install -y flathub com.google.Chrome
