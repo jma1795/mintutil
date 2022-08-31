@@ -4,7 +4,6 @@ My own custom setup for Cinnamon Desktop Environment on Linux Mint
 Folders:
 - Apps
 - Config
-- Themes
 
 Scripts:
 
@@ -29,8 +28,4 @@ Installed Packages:
      - Discord
      - Spotify
      - Joplin
-- Themes
-  - Masalla Icons
-  - Adementary theme
-  - Bibata Cursors
 
