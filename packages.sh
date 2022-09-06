@@ -1,5 +1,5 @@
 #Update
-sudo apt -y update && apt -y upgrade
+sudo nala update && nala upgrade -y
 
 
 #Native packages
@@ -20,4 +20,9 @@ sudo flatpak override --filesystem=$HOME/.themes
 cd config
 sudo cp bash_prompt ~/.bash_prompt
 sudo cp bashrc ~/.bashrc
+cd ..
+
+#fix geary on low-res displays
+cd config
+sudo cp gtk.css ~/.config/gtk-3.0/gtk.css
 cd ..
