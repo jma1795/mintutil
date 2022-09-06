@@ -15,3 +15,9 @@ flatpak install -y flathub net.cozic.joplin_desktop
 flatpak install -y flathub com.github.tchx84.Flatseal
 sudo flatpak override --filesystem=$HOME/.themes
 
+
+#setup terminal
+cd config
+sudo cp bash_prompt ~/.bash_prompt
+sudo cp bashrc ~/.bashrc
+cd ..
