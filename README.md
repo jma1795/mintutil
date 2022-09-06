@@ -22,6 +22,7 @@ Installed Packages:
   - cheese 
   - neofetch 
   - tlp
+  - powertop
   - xsensors 
  - Flatpaks (Flathub)
      - Google Chrome
