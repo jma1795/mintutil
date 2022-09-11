@@ -21,9 +21,10 @@ Installed Packages:
   - lollypop
   - cheese 
   - neofetch 
-  - tlp
+#  - tlp
   - powertop
-  - xsensors 
+  - xsensors
+  - auto-cpufreq
  - Flatpaks (Flathub)
      - Google Chrome
      - Geary
@@ -31,5 +32,5 @@ Installed Packages:
      - Spotify
      - Joplin
      - Flatseal
-     - TLPUI
+#     - TLPUI
 
