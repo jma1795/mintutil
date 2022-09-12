@@ -22,5 +22,5 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 sudo auto-cpufreq --install
 
 cd config
-cp auto-cpufreq.conf /etc/auto-cpufreq.conf
+sudo cp auto-cpufreq.conf /etc/auto-cpufreq.conf
 cd ..
