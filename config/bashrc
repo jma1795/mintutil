@@ -121,3 +121,15 @@ fi
 if [ -f ~/.bash_prompt ]; then
   . ~/.bash_prompt
 fi
+
+apt() { 
+  command nala "$@"
+}
+sudo() {
+  if [ "$1" = "apt" ]; then
+    shift
+    command sudo nala "$@"
+  else
+    command sudo "$@"
+  fi
+}
