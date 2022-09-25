@@ -2,19 +2,17 @@ function pause(){
    read -p "$*"
 }
 ################################################################ 
- echo "****Optimizing Sytem for SSD storage****"
+ echo "****Optimizing Firewall and Security****"
 	    # run package installer
+	    
+#setting up firewall	    
+sudo apt install ufw
 
-# Reduce the inclination to swap
-cat /proc/sys/vm/swappiness
-echo 'The default value is 60 for HDDs, setting to 25 for SSDs'
-
-echo '# Reduce the inclination to swap
-vm.swappiness=25' >> /etc/sysctl.conf
-
-#Optional: set noatime
-echo 'setting noatime for SSDs'
-sudo sed -i 's/ errors=remount-ro/ noatime,errors=remount-ro/' /etc/fstab
-echo "****Task Complete a System Reboot is suggested****"
+sudo ufw limit 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
 
 pause 'Press [Enter] key to continue...'
