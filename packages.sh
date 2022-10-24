@@ -3,7 +3,7 @@ sudo nala update && nala upgrade -y
 
 
 #Native packages
-sudo nala install -y cheese lollypop
+sudo nala install -y cheese lollypop powerline
 
 #Flatpaks
 flatpak install -y flathub com.google.Chrome
@@ -18,7 +18,6 @@ sudo flatpak override --filesystem=$HOME/.themes
 
 #setup terminal
 cd config
-sudo cp bash_prompt ~/.bash_prompt
 sudo cp bashrc ~/.bashrc
 cd ..
 
@@ -30,10 +29,6 @@ cd ..
 sudo cp ~/.bashrc ~/bashrc.bak
 sudo rm ~/.bashrc
 
-cd ~/Downloads
-git clone https://github.com/christitustech/mybash 
-cd mybash 
-./setup.sh 
 cd ~/Downloads
 mkdir ~/.fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Meslo.zip
