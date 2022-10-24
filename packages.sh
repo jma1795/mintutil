@@ -26,3 +26,15 @@ cd ..
 cd config
 sudo cp gtk.css ~/.config/gtk-3.0/gtk.css
 cd ..
+
+sudo cp ~/.bashrc ~/bashrc.bak
+sudo rm ~/.bashrc
+
+cd ~/Downloads
+git clone https://github.com/christitustech/mybash 
+cd mybash 
+./setup.sh 
+cd ~/Downloads
+mkdir ~/.fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Meslo.zip
+unzip -d ~/.fonts/ Meslo.zip 
