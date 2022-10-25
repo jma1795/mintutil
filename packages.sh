@@ -25,9 +25,12 @@ cd ..
 cd config
 sudo cp gtk.css ~/.config/gtk-3.0/gtk.css
 cd ..
-
+#bashrc setup
 sudo cp ~/.bashrc ~/bashrc.bak
-sudo rm ~/.bashrc
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+cd config
+
+sudo cp bashrc ~/.bashrc
 
 cd ~/Downloads
 mkdir ~/.fonts
