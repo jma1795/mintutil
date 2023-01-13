@@ -1,12 +1,9 @@
-[Unit]
-Description=PowerTOP auto tune
-
-[Service]
-Type=oneshot
-Environment="TERM=dumb"
-RemainAfterExit=true
-ExecStart=/usr/sbin/powertop --auto-tune
-
-[Install]
-WantedBy=multi-user.target
-EOF
+[Unit]					
+Description=Powertop tunings		
+						
+[Service]					
+Type=idle					
+ExecStart=/usr/sbin/powertop --auto-tune	
+						
+[Install]					
+WantedBy=multi-user.target		
