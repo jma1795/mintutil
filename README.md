@@ -1,36 +1,34 @@
 # Joemint
 My own custom setup for Cinnamon Desktop Environment on Linux Mint
 *****************Overview*****************
-Folders:
-- Config
+Config: any configuration files I need
+Scripts: scripts to setup a new install
 
-Scripts:
-
-packages.sh - Package setup and install
-theme.sh - Setup and Install of System themes, icons and cursors
-Pre-setup.sh - all prerequisitis for everything
-setup.sh - runs all the scripts in an easy to follow way
-
-Prerequisits: (technically nothing, as pre-setup.sh should install these for you)
+Pre-setup.sh - install all prerequisitis for needed packages and configs
 - git 
 - make 
 - Nala (APT Front-end)
 
-Installed Packages:
+packages.sh - Programs and packages I need
+
 - Native (deb)
   - lollypop
   - cheese 
   - neofetch 
-#  - tlp
+  - tlp
   - powertop
-  - xsensors
-  - auto-cpufreq
+  - psensors
+  - Gnome-Firmware
  - Flatpaks (Flathub)
      - Google Chrome
-     - Geary
      - Discord
-     - Spotify
      - Joplin
      - Flatseal
-#     - TLPUI
+     - TLPUI
+
+theme.sh - Setup and Install of System themes, icons and cursors
+
+
+
+
 
