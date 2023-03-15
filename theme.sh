@@ -30,10 +30,20 @@ unzip mint-yz-theme_4.1.zip -d themes/
 cd themes
 mv themes/* ~/.themes/
 cd ~/Downloads
+
 #Cleanup
 rm -rf themes 
 rm -rf icons
 rm -rf Simp1e-Adw-Dark.tgz
+
+cd ~/Downloads/Joemint-main/
+cd config
+dconf load /org/cinnamon/ < cinnamon_desktop_backup
+
+cd ..
+
+
+
 
 
 

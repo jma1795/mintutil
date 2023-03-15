@@ -1,4 +1,8 @@
 #!/bin/bash
+
+echo "*********************************"
+echo "*Joe's Mint customization script*"
+echo "*********************************"
 neofetch
 bash date.sh
 bash sysinfo2.sh
