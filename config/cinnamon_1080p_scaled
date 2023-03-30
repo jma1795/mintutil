@@ -5,8 +5,9 @@ enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@c
 favorite-apps=['firefox.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'net.cozic.joplin_desktop.desktop:flatpak', 'appimagekit_847d5fbca3fe7c5b679d4bb8a1c78dc1-Presenter.desktop']
 next-applet-id=19
 panel-edit-mode=false
-panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
-panels-height=['1:40']
+panel-zone-icon-sizes='[{"panelId":1, "left":40, "center":0, "right":28}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 32, "center": 0, "right": 26}]'
+panels-height=['1:50']
 
 [desktop/a11y/applications]
 screen-keyboard-enabled=false
@@ -33,11 +34,22 @@ exec='gnome-calculator'
 exec='gnome-terminal'
 exec-arg='--'
 
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/linuxmint-vera/ktaira_estonia.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-vera.xml'
+
 [desktop/interface]
 clock-use-24h=false
-cursor-theme='Simp1e-Adw-Dark'
-gtk-theme='Mint-Yz-Dark-BlueElectron'
-icon-theme='Mint-Yz-Base-BlueElectron'
+cursor-size=24
+cursor-theme='Simp1e-Dark'
+gtk-theme='Mint-Yz-Dark-MintSoda'
+icon-theme='Mint-Yz-Base-MintSoda'
+scaling-factor=uint32 1
+text-scaling-factor=1.2
 toolkit-accessibility=false
 
 [desktop/media-handling]
@@ -63,6 +75,7 @@ tap-to-click=true
 event-sounds=false
 
 [desktop/wm/preferences]
+min-window-opacity=30
 theme='Mint-Y'
 
 [muffin]
@@ -82,4 +95,4 @@ sleep-inactive-ac-timeout=0
 sleep-inactive-battery-timeout=1800
 
 [theme]
-name='Mint-Yz-Dark-BlueElectron'
+name='Mint-Yz-Dark-MintSoda'
