@@ -14,21 +14,21 @@ mkdir -p ~/Downloads/icons && mkdir -p ~/Downloads/themes
 cd ~/Downloads
 wget https://gitlab.com/cursors/simp1e/-/jobs/3719462594/artifacts/raw/built_themes/Simp1e-Adw-Dark.tgz
 tar xvf Simp1e-Adw-Dark.tgz
-mv Simp1e-Adw-Dark ~/.icons/
+sudo mv Simp1e-Adw-Dark /usr/share/icons/
 
 #get icons
 cd ~/Downloads
 wget https://github.com/SebastJava/mint-yz-icons/releases/download/v4.0/mint-yz-icons_4.0.zip
 unzip mint-yz-icons_4.0.zip -d icons/
 cd icons
-mv icons/* ~/.themes/
+sudo mv icons/* /usr/share/icons/
 
 #get gtk theme 
 cd ~/Downloads
 wget https://github.com/SebastJava/mint-yz-theme/releases/download/v4.1/mint-yz-theme_4.1.zip
 unzip mint-yz-theme_4.1.zip -d themes/
 cd themes
-mv themes/* ~/.themes/
+sudo mv themes/* /usr/share/themes/
 cd ~/Downloads
 
 #Cleanup

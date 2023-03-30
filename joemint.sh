@@ -14,11 +14,13 @@ select fav in "${setup[@]}"; do
             echo "***Installing prerequisitis***"
 	    #Run Script
         bash pre-setup.sh
+	    break
             ;;
         "Software")
             echo "***Running $fav script***"
 	    #Run Script
         bash packages.sh
+	    break
             ;;
         "Power Management")
             echo "***Running $fav script***"
@@ -29,7 +31,7 @@ select fav in "${setup[@]}"; do
         "Security")
             echo "***Running $fav script***"
 	    #Run Script
-        bash power.sh
+        bash firewall.sh
 	    break
             ;;
         "Audio")

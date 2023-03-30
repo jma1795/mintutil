@@ -3,14 +3,13 @@ sudo nala update && nala upgrade -y
 
 
 #Native packages
-sudo nala install -y cheese lollypop gnome-firmware
+sudo nala install -y cheese lollypop gnome-firmware psensor xsensors
 
 #Flatpaks
-flatpak install -y flathub com.google.Chrome
-flatpak install -y flathub com.discordapp.Discord
-flatpak install -y flathub net.cozic.joplin_desktop
-flatpak install -y flathub com.github.tchx84.Flatseal
+flatpak install -y flathub com.google.Chrome com.discordapp.Discord net.cozic.joplin_desktop com.github.tchx84.Flatseal
+
 sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --filesystem=$HOME/.icons
 
 #Fonts
 cd ~/Downloads
