@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=AT&T Gateway Management
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="cs-network" firefox --class WebApp-ATTGatewayManagement3751 --profile /home/joe/.local/share/ice/firefox/ATTGatewayManagement3751 --no-remote "http://192.168.1.254"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=cs-network
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-ATTGatewayManagement3751
+StartupNotify=true
+X-WebApp-Browser=Firefox
+X-WebApp-URL=http://192.168.1.254
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
