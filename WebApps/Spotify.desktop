@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Spotify Web
+Comment=Digital Music Service
+Type=Link
+Categories=WebApps;
+URL=https://open.spotify.com/
+Icon=spotify
+Name[en_US]=Spotify.desktop
