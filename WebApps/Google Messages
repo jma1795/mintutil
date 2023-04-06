@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Google Messages
+Comment=SMS, RCS, and instant messaging application developed by Google
+Type=Link
+Categories=WebApps;
+URL=https://messages.google.com/web/authentication
+Icon=web-google-apps-script
