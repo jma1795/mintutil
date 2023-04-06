@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Voice
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="web-google-hangouts" firefox --class WebApp-GoogleVoice8097 --profile /home/joe/.local/share/ice/firefox/GoogleVoice8097 --no-remote "https://voice.google.com/u/0/messages"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=web-google-hangouts
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-GoogleVoice8097
+StartupNotify=true
+X-WebApp-Browser=Firefox
+X-WebApp-URL=https://voice.google.com/u/0/messages
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Netgear Admin Portal
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="preferences-system-network" firefox --class WebApp-NetgearAdminPortal9304 --profile /home/joe/.local/share/ice/firefox/NetgearAdminPortal9304 --no-remote "http://routerlogin.net/index.htm"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=preferences-system-network
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-NetgearAdminPortal9304
+StartupNotify=true
+X-WebApp-Browser=Firefox
+X-WebApp-URL=http://routerlogin.net/index.htm
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

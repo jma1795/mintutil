@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Facebook Messenger
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="FacebookMessenger-facebook.com" firefox --class WebApp-FacebookMessenger7460 --profile /home/joe/.local/share/ice/firefox/FacebookMessenger7460 --no-remote "https://www.messenger.com/t/"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=FacebookMessenger-facebook.com
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-FacebookMessenger7460
+StartupNotify=true
+X-WebApp-Browser=Firefox
+X-WebApp-URL=https://www.messenger.com/t/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

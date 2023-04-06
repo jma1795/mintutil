@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Spotify - Web
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="spotify" firefox --class WebApp-SpotifyWeb4748 --profile /home/joe/.local/share/ice/firefox/SpotifyWeb4748 --no-remote "https://open.spotify.com/"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=spotify
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-SpotifyWeb4748
+StartupNotify=true
+X-WebApp-Browser=Firefox
+X-WebApp-URL=https://open.spotify.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+
