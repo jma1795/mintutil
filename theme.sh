@@ -39,7 +39,7 @@ rm -rf Simp1e-Adw-Dark.tgz
 cd ~/Downloads/Joemint-main/
 cd config
 dconf load /org/cinnamon/ < cinnamon_desktop_backup
-
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 cd ..
 
 
