@@ -7,40 +7,40 @@ bash date.sh
 bash sysinfo2.sh
 
 PS3='Choose Script to run: '
-setup=("Pre-Setup" "Software" "Power Management" "Security" "Audio" "Appearance" "Quit")
+setup=("Post-Install" "Software Extras" "Laptop Power Management" "Firewall" "Audio" "Theme" "Quit")
 select fav in "${setup[@]}"; do
     case $fav in
-        "Pre-Setup")
-            echo "***Installing prerequisitis***"
-	    #Run Script
-        bash pre-setup.sh
-	    break
-            ;;
-        "Software")
+        "Post-Install")
             echo "***Running $fav script***"
 	    #Run Script
-        bash packages.sh
+        bash mint-post-install.sh
 	    break
             ;;
-        "Power Management")
+        "Software Extras")
             echo "***Running $fav script***"
 	    #Run Script
-        bash power.sh
+        bash more-packages.sh
 	    break
             ;;
-        "Security")
+        "Laptop Power Management")
+            echo "***Running $fav script***"
+	    #Run Script
+        bash laptop-power.sh
+	    break
+            ;;
+        "Firewall")
             echo "***Running $fav script***"
 	    #Run Script
         bash firewall.sh
 	    break
             ;;
-        "Audio")
+        "Gaming")
             echo "***Running $fav script***"
 	    #Run Script
-        bash pipewire.sh
+        bash gaming.sh
 	    break
             ;;
-        "Appearance")
+        "Theme")
             echo "***Running $fav script***"
 	    #Run Script
         bash theme.sh
