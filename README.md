@@ -1,5 +1,5 @@
 # Joemint
-My own custom setup for Cinnamon Desktop Environment on Linux Mint
+My own custom toolbox for setting up my Linux Mint systems. For now the scope is for my LM and LMDE systems but that could change in the future.
 *****************Overview*****************
 Config: any configuration files I need
 Scripts: scripts to setup a new install
@@ -7,26 +7,34 @@ Scripts: scripts to setup a new install
 Pre-setup.sh - install all prerequisitis for needed packages and configs
 - git 
 - make 
-- Nala (APT Front-end)
+- Nala (really nice APT Front-end)
 
-packages.sh - Programs and packages I need
+Programs and packages
+*Native (deb)*
+- mint-meta-codecs & ubuntu-restricted-extras to cover multi-media codecs, truetype font etc
+- cheese (for checking camera and taking pictures)
+- neofetch (for the thrills)
+- tlp,tlp-rdw & powertop for power management
+- psensor & xsensors for temperature monitoring
+- Gnome-Firmware (for devices that support LVS updates)
+- Evernote (for notetaking)
+- Bitwarden (password managemetn)
 
-- Native (deb)
-  - lollypop
-  - cheese 
-  - neofetch 
-  - tlp
-  - powertop
-  - psensors
-  - Gnome-Firmware
- - Flatpaks (Flathub)
-     - Google Chrome
-     - Discord
-     - Joplin
-     - Flatseal
-     - TLPUI
+*Flatpaks (Flathub)*
+ - Google Chrome
+ - Discord
+ - Flatseal
+ - TLPUI
 
-theme.sh - Setup and Install of System themes, icons and cursors
+Resources
+Obviously everything here isn't my own, but I will give credit where I can / where it is due:
+
+Github desktop for linux: https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
+VScodium: https://github.com/VSCodium/vscodium/releases 
+Debian/Ubuntu for the packages, Flatpak and Flathub for the non-native packages
+Evernote For Linux: https://github.com/search5/Evernote-for-Linux 
+Bitwarden for my password management
+
 
 
 

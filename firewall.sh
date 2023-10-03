@@ -13,4 +13,7 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 
+echo "****Complete****"
 pause 'Press [Enter] key to continue...'
+exit 0
+
