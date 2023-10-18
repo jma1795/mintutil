@@ -47,7 +47,7 @@ select fav in "${setup[@]}"; do
         "Laptop Power Management")
             echo "***Running $fav script***"
 	    #Run Script
-        bash laptop-power.sh
+        bash power.sh
 	    break
             ;;
         "Firewall")
