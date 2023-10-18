@@ -7,30 +7,25 @@ sudo apt update
 
 # Multimedia CODECs
 sudo nala install mint-meta-codecs -y
-sudo nala install ubuntu-restricted-extras -y
-
 
 #Update
 sudo nala update && nala upgrade -y
 
 
 #Native deb Packages
-sudo nala install -y cheese gnome-firmware psensor xsensors git nfs-common gparted htop bpytop bitwarden spotify-client
+sudo nala install -y cheese gnome-firmware psensor xsensors git nfs-common gparted htop bpytop spotify-client
 
-# Install Evernote client
+# Install Standalone Packages
 mkdir packages
 cd packages
-wget https://github.com/search5/Evernote-for-Linux/releases/download/v10.60.4-linux-ddl-ga-stable/evernote-client_10.60.4-stable_amd64.deb
-sudo dpkg -i evernote-client*.deb
+wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
+sudo mv thorium.list /etc/apt/sources.list.d/
+sudo apt update
+sudo apt install thorium-browser
 cd ..
 
 #Flatpaks
-flatpak install -y flathub com.google.Chrome com.discordapp.Discord com.github.tchx84.Flatseal
-flatpak install flathub com.github.iwalton3.jellyfin-media-player
-#flatpak install flathub com.obsproject.Studio
-#flatpak install flathub org.kde.kdenlive
-
-
+flatpak install -y flathub com.discordapp.Discord com.github.tchx84.Flatseal com.github.iwalton3.jellyfin-media-player com.notesnook.Notesnook com.bitwarden.desktop
 sudo flatpak override --filesystem=$HOME/.themes
 sudo flatpak override --filesystem=$HOME/.icons 
 
