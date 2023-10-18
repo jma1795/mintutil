@@ -1,15 +1,12 @@
-# Joemint
-My own custom toolbox for setting up my Linux Mint systems. For now the scope is for my LM and LMDE systems but that could change in the future.
+# Joe's Linux Mint Ulility
+This Utility is a compilation of Linux tasks and scripts I use on each LM system I use. Its eventual scope is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix updates. I am open to any contributions but let's keep it civil. Also I'm just doing this for fun as I am just learning how to code and write scrips so I will do my best to keep this project clean and efficient. For now the scope is for my LM and LMDE systems but that could change in the future as time allows.
 *****************Overview*****************
-Config: any configuration files I need
-Scripts: scripts to setup a new install
-
-Pre-setup.sh - install all prerequisitis for needed packages and configs
+Pre-setup.sh - install all prerequisitis for needed to run the toolbox
 - git 
 - make 
 - Nala (really nice APT Front-end)
 
-Programs and packages
+Covered Programs and packages
 *Native (deb)*
 - mint-meta-codecs to cover multi-media codecs, truetype font etc
 - cheese (for checking camera and taking pictures)
@@ -17,7 +14,7 @@ Programs and packages
 - auto-cpufreq, bat & powertop for power management
 - psensor & xsensors for temperature monitoring
 - Gnome-Firmware (for devices that support LVS updates)
-- 
+
 *Flatpaks (Flathub)*
  - Discord
  - Flatseal
