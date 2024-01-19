@@ -1,12 +1,17 @@
 #!/bin/bash
 
-echo "***********************************"
-echo "*Joe's Ultimate Linux Mint Toolbox*"
-echo "***********************************"
-#Shenanigans, comment out if problems exist
+echo "*************************************"
+echo "*Warthunder's Ultimate Linux Toolbox*"
+echo "*************************************"
+# By Warthunder. (https://github.com/jma1795 GNU/General Public License version 2.0)
 
 
-neofetch
+
+#Display System Information
+hostnamectl | grep 'Operating System'
+lscpu | grep 'Model name'|
+echo "Memory:" && free -m | awk '/^Mem:/{printf("%.1fGb\n",$2/1000)}'
+echo "GPU:" && lspci | grep VGA
 #Display Date and Time, Install Date/Age
 now="$(date +'%Y-%m-%d')"
 printf "Current date: %s\n" "$now"
@@ -28,44 +33,38 @@ echo "*********************************"
 done
 #End of Shenanigans
 
-PS3='Choose Script to run: '
-setup=("Setup" "Software Packages" "Laptop Power Management" "Firewall" "Audio" "Coding" "Quit")
+PS3='What do you want to do?'
+setup=("System Setup" "Install Apps" "Power Management" "Security" "Fixes" "Quit")
 select fav in "${setup[@]}"; do
     case $fav in
-        "Setup")
+        "System Setup")
             echo "***Running $fav script***"
 	    #Run Script
         bash pre-setup.sh
 	    break
             ;;
-        "Software Packages")
+        "Install Apps")
             echo "***Running $fav script***"
 	    #Run Script
         bash packages.sh
 	    break
             ;;
-        "Laptop Power Management")
+        "Power Management")
             echo "***Running $fav script***"
 	    #Run Script
         bash power.sh
 	    break
             ;;
-        "Firewall")
+        "Security")
             echo "***Running $fav script***"
 	    #Run Script
         bash firewall.sh
 	    break
             ;;
-        "Gaming")
+        "Fixes")
             echo "***Running $fav script***"
 	    #Run Script
         bash gaming.sh
-	    break
-            ;;
-        "Coding")
-            echo "***Running $fav script***"
-	    #Run Script
-        bash coding.sh
 	    break
             ;;
 	"Quit")

@@ -28,6 +28,7 @@ echo "Installing Lutris"
 flatpak install flathub net.lutris.Lutris
 sudo apt install steam
 flatpak install com.heroicgameslauncher.hgl
+flatpak install flathub com.usebottles.bottles
 
 echo "****Complete****"
 pause 'Press [Enter] key to continue...'

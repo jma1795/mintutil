@@ -15,5 +15,5 @@ sudo ufw enable
 
 echo "****Complete****"
 pause 'Press [Enter] key to continue...'
-exit 0
+done
 
