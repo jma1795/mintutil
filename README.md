@@ -1,5 +1,5 @@
-# Joe's Linux Mint Ulility
-This Utility is a compilation of Linux tasks and scripts I use on each LM system I use. Its eventual scope is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix updates. I am open to any contributions but let's keep it civil. Also I'm just doing this for fun as I am just learning how to code and write scrips so I will do my best to keep this project clean and efficient. For now the scope is for my LM and LMDE systems but that could change in the future as time allows.
+# Warthunders's Linux Ulility
+This Utility is a compilation of Linux tasks and scripts I use on each Linux system I use. Its eventual scope is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix updates. I am open to any contributions but let's keep it civil. Also I'm just doing this for fun as I am just learning how to code and write scrips so I will do my best to keep this project clean and efficient. For now the scope is for my LM and LMDE systems but that could change in the future as time allows.
 *****************Overview*****************
 Pre-setup.sh - install all prerequisitis for needed to run the toolbox
 - git 
