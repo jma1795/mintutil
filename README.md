@@ -1,13 +1,13 @@
-# Warthunder's Ultimate Linux Toolbox (aka Mintutil)
+# Warthunder's Ultimate Linux Toolbox (aka Warutil)
 This Utility is a compilation of Linux tasks and scripts I use on each Linux system I use. This toolkit aims to be an all-in-one solution for post-installation, a swiss-army knife for the debian realm so to speak. It's offered as use at your own risk type of thing, without any support. I'm open to controbutions but I'm just doing this for fun as I am just learning how to code and write scrips so I will do my best to keep this project clean and efficient. For now the scope is for my LM and LMDE systems but that could change in the future as time allows. I don't ever plan to match the functionality of Xerolinux's Toolbox but consider that where I got my idea from. If you run arch its a great tool.
 
 **Install / Usage**
 You'll just need git and bash to get started
 
 ``` 
-git clone https://github.com/jma1795/mintutil.git
-cd mintutil
-bash mintutil
+git clone https://github.com/jma1795/warutil.git
+cd warutil
+bash warutil.sh
 ``` 
 as a note, some fixes and script will add repositories to imprelemt fixes. These repos are likely not apart of your distrobution and are not their concern.
 
